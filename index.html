@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>Minha Lista de Tarefas</h1></header>
+<main>
+    <section class="task-input"><input type="text" id="taskInput" placeholder="Digite uma nova tarefa"
+                                       aria-label="Nova tarefa">
+        <button onclick="addTask()">Adicionar</button>
+    </section>
+    <section class="task-list">
+        <ul id="taskList"></ul>
+    </section>
+    <section class="notification-controls">
+        <button onclick="requestNotificationPermission()">Ativar Notificações</button>
+    </section>
+</main>
+<footer><p>&copy; 2025 Hackathon Frontend</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
